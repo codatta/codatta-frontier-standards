@@ -11,9 +11,10 @@ For questions or to reach out to the maintainers, contact us at **[dev-opensourc
 ## 📂 Repository Structure (Example)
 
 Each frontier directory includes:
-- **taxonomy-and-schema.md**: Documentation outlining the taxonomy and schema, providing a structured format for annotations.
-- **schema_vX.json**: JSON files that define the schema for data annotation.
-- **guidelines.md**: Task-specific guidelines for contributors working within each frontier.
+- **taxonomy-and-schema.md**: Documentation outlining the taxonomy and schema, providing a structured format for annotations and general guidance.
+- **taxonomy_vX.json**: A JSON file containing detailed taxonomy definitions for account annotation. This file serves as the ground truth for the actual taxonomy adopted in systems, standardizing categories and attributes across data providers. Any discrepancies between this JSON file and `taxonomy-and-schema.md` should be resolved by referring to the JSON file as the authoritative source.
+- **schema_vX.json**: JSON files that define the schema for data annotation. This schema file is considered the authoritative source for schema definitions, taking precedence over `taxonomy-and-schema.md`. If there are any differences between this JSON file and the `.md` file, `schema_vX.json` should be followed.
+- **guidelines.md** (optional): Task-specific guidelines for contributors working within each frontier. This file is optional and can be included if additional guidance is necessary for the annotation tasks.
 
 For example:
 ```

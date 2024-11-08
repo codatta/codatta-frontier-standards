@@ -1,0 +1,452 @@
+[
+    {
+        "key": "finance",
+        "display_name": "Finance",
+        "description": null,
+        "parent_key": null
+    },
+    {
+        "key": "decentralized_finance",
+        "display_name": "Decentralized Finance (DeFi)",
+        "description": "Financial applications developed on blockchain technology, facilitating open, accessible, and interoperable financial systems.",
+        "parent_key": "finance"
+    },
+    {
+        "key": "exchanges_dexs",
+        "display_name": "Exchanges (DEXs)",
+        "description": "Decentralized platforms where users can trade cryptocurrencies directly from their wallets without the need for an intermediary or custodian.",
+        "parent_key": "decentralized_finance"
+    },
+    {
+        "key": "lending_and_borrowing",
+        "display_name": "Lending and Borrowing",
+        "description": "Platforms that allow users to lend their assets for interest or borrow against their cryptocurrencies.",
+        "parent_key": "decentralized_finance"
+    },
+    {
+        "key": "yield_farming_and_liquidity_mining",
+        "display_name": "Yield Farming and Liquidity Mining",
+        "description": "Strategies where users lock up their assets to receive rewards, often in the form of another token.",
+        "parent_key": "decentralized_finance"
+    },
+    {
+        "key": "derivatives_and_synthetic_assets",
+        "display_name": "Derivatives and Synthetic Assets",
+        "description": "Platforms offering financial instruments that derive their value from underlying assets, like cryptocurrencies.",
+        "parent_key": "decentralized_finance"
+    },
+    {
+        "key": "insurance_protocols",
+        "display_name": "Insurance Protocols",
+        "description": "Offer decentralized insurance products built on blockchain to provide coverage against losses in various scenarios.",
+        "parent_key": "decentralized_finance"
+    },
+    {
+        "key": "prediction_markets",
+        "display_name": "Prediction Markets",
+        "description": "Platforms where users can bet on the outcomes of future events, such as elections or market prices.",
+        "parent_key": "decentralized_finance"
+    },
+    {
+        "key": "financial_infrastructure_and_services",
+        "display_name": "Financial Infrastructure and Services",
+        "description": "Infrastructure and services on blockchain for payments, custodial services, and financial transactions.",
+        "parent_key": "finance"
+    },
+    {
+        "key": "wallet_services",
+        "display_name": "Wallet Services",
+        "description": "Platforms that provide secure storage and management for cryptocurrencies and digital assets.",
+        "parent_key": "financial_infrastructure_and_services"
+    },
+    {
+        "key": "payment_gateways_and_processors",
+        "display_name": "Payment Gateways and Processors",
+        "description": "Tools for accepting cryptocurrency payments, facilitating transactions for merchants and users.",
+        "parent_key": "financial_infrastructure_and_services"
+    },
+    {
+        "key": "centralized_exchanges_and_trading_platforms",
+        "display_name": "Centralized Exchanges and Trading Platforms",
+        "description": "Centralized platforms facilitating the buying, selling, and trading of various assets, including cryptocurrencies and fiat currencies.",
+        "parent_key": "financial_infrastructure_and_services"
+    },
+    {
+        "key": "real_world_asset_tokenization",
+        "display_name": "Real-World Asset (RWA) Tokenization",
+        "description": "Platforms that tokenize tangible assets, such as real estate, commodities, or art, allowing them to be represented and traded on the blockchain.",
+        "parent_key": "finance"
+    },
+    {
+        "key": "art_and_digital_collectibles",
+        "display_name": "Art and Digital Collectibles",
+        "description": "Digital representations of art or collectibles, each token being unique or part of a limited series.",
+        "parent_key": "real_world_asset_tokenization"
+    },
+    {
+        "key": "real_estate_tokenization",
+        "display_name": "Real Estate Tokenization",
+        "description": "Platforms that represent ownership of real estate properties through tokens on the blockchain, enabling fractional ownership and increased liquidity.",
+        "parent_key": "real_world_asset_tokenization"
+    },
+    {
+        "key": "business_and_services",
+        "display_name": "Business and Services",
+        "description": null,
+        "parent_key": null
+    },
+    {
+        "key": "identity_and_authentication",
+        "display_name": "Identity and Authentication",
+        "description": "Technologies that provide decentralized solutions for verifying identities and managing access through blockchain.",
+        "parent_key": "business_and_services"
+    },
+    {
+        "key": "self_sovereign_identity",
+        "display_name": "Self-Sovereign Identity (SSI)",
+        "description": "Digital identities where individuals have control over their personal data.",
+        "parent_key": "identity_and_authentication"
+    },
+    {
+        "key": "supply_chain_and_provenance_tracking",
+        "display_name": "Supply Chain and Provenance Tracking",
+        "description": "Blockchain-based solutions to track and verify the journey of products across supply chains, improving transparency and authenticity.",
+        "parent_key": "business_and_services"
+    },
+    {
+        "key": "supply_chain_management",
+        "display_name": "Supply Chain Management",
+        "description": "Platforms that use blockchain to provide end-to-end visibility into supply chain operations, reducing fraud and inefficiencies.",
+        "parent_key": "supply_chain_and_provenance_tracking"
+    },
+    {
+        "key": "anti_counterfeiting",
+        "display_name": "Anti-Counterfeiting",
+        "description": "Solutions that use blockchain to verify product authenticity, especially in high-value or sensitive goods.",
+        "parent_key": "supply_chain_and_provenance_tracking"
+    },
+    {
+        "key": "content_sharing_and_rights_management",
+        "display_name": "Content Sharing, Intellectual Property and Rights Management",
+        "description": "Platforms that leverage blockchain for content sharing, enabling users to maintain control and ownership over their data and media.",
+        "parent_key": "business_and_services"
+    },
+    {
+        "key": "streaming_media",
+        "display_name": "Streaming",
+        "description": "Services providing streaming media content using blockchain for content distribution and payment processing.",
+        "parent_key": "content_sharing_and_rights_management"
+    },
+    {
+        "key": "music_platforms",
+        "display_name": "Music",
+        "description": "Platforms allowing creators to control and receive royalties.",
+        "parent_key": "content_sharing_and_rights_management"
+    },
+    {
+        "key": "medical_data_management",
+        "display_name": "Medical Data Management",
+        "description": "Solutions to secure and share patient data.",
+        "parent_key": "business_and_services"
+    },
+    {
+        "key": "education_and_certification",
+        "display_name": "Education and Certification",
+        "description": "Blockchain-based credential verification for educational achievements and certifications.",
+        "parent_key": "business_and_services"
+    },
+    {
+        "key": "sports_and_entertainment",
+        "display_name": "Sports and Entertainment",
+        "description": "Applications related to sports products or services, including fantasy sports, collectibles, and betting platforms.",
+        "parent_key": "business_and_services"
+    },
+    {
+        "key": "data_marketplaces",
+        "display_name": "Data Marketplaces",
+        "description": "Decentralized marketplaces for buying, selling, and sharing data.",
+        "parent_key": "business_and_services"
+    },
+    {
+        "key": "data_sharing_platforms",
+        "display_name": "Data Sharing Platforms",
+        "description": "Marketplaces where users can monetize their data.",
+        "parent_key": "data_marketplaces"
+    },
+    {
+        "key": "decentralized_physical_infrastructure_networks",
+        "display_name": "Decentralized Physical Infrastructure Networks (DePIN)",
+        "description": "Networks that decentralize physical infrastructure services using blockchain technology, enabling shared ownership and operation of physical assets.",
+        "parent_key": "business_and_services"
+    },
+    {
+        "key": "file_storage",
+        "display_name": "File Storage",
+        "description": "Decentralized networks where users can store and retrieve files securely without relying on centralized servers.",
+        "parent_key": "decentralized_physical_infrastructure_networks"
+    },
+    {
+        "key": "compute_power_sharing",
+        "display_name": "Compute Power Sharing",
+        "description": "Platforms that allow users to rent or share computational resources in a decentralized network.",
+        "parent_key": "decentralized_physical_infrastructure_networks"
+    },
+    {
+        "key": "decentralized_wireless_networks",
+        "display_name": "Decentralized Wireless Networks",
+        "description": "Community-built networks providing wireless connectivity services.",
+        "parent_key": "decentralized_physical_infrastructure_networks"
+    },
+    {
+        "key": "decentralized_energy_grids",
+        "display_name": "Decentralized Energy Grids",
+        "description": "Platforms enabling peer-to-peer energy trading and decentralized energy management.",
+        "parent_key": "decentralized_physical_infrastructure_networks"
+    },
+    {
+        "key": "decentralized_transportation_networks",
+        "display_name": "Decentralized Transportation Networks",
+        "description": "Systems that use blockchain to manage transportation services, such as ride-sharing or logistics.",
+        "parent_key": "decentralized_physical_infrastructure_networks"
+    },
+    {
+        "key": "advertising_and_marketing",
+        "display_name": "Advertising and Marketing",
+        "description": "Blockchain solutions in advertising, allowing for new models and fraud prevention.",
+        "parent_key": "business_and_services"
+    },
+    {
+        "key": "attention_economy_models",
+        "display_name": "Attention Economy Models",
+        "description": "Platforms where users are compensated for their attention to ads.",
+        "parent_key": "advertising_and_marketing"
+    },
+    {
+        "key": "ad_fraud_prevention",
+        "display_name": "Ad Fraud Prevention",
+        "description": "Solutions to detect and prevent ad fraud.",
+        "parent_key": "advertising_and_marketing"
+    },
+    {
+        "key": "charity_and_philanthropy",
+        "display_name": "Charity and Philanthropy",
+        "description": "Platforms leveraging blockchain for transparency in donations.",
+        "parent_key": "business_and_services"
+    },
+    {
+        "key": "charity_platforms",
+        "display_name": "Charity Platforms",
+        "description": "Systems to track and ensure funds reach intended recipients.",
+        "parent_key": "charity_and_philanthropy"
+    },
+    {
+        "key": "gambling",
+        "display_name": "Gambling",
+        "description": "Blockchain applications offering transparency and fair play.",
+        "parent_key": "business_and_services"
+    },
+    {
+        "key": "transparent_betting_platforms",
+        "display_name": "Transparent Betting Platforms",
+        "description": "Platforms for placing bets transparently on blockchain.",
+        "parent_key": "gambling"
+    },
+    {
+        "key": "gamefi",
+        "display_name": "GameFi",
+        "description": "Blockchain-based games that offer economic incentives to players.",
+        "parent_key": null
+    },
+    {
+        "key": "gaming_nfts",
+        "display_name": "Gaming NFTs",
+        "description": "Tokens that represent in-game assets, which players can own, sell, or use within gaming environments.",
+        "parent_key": "gamefi"
+    },
+    {
+        "key": "virtual_real_estate",
+        "display_name": "Virtual Real Estate",
+        "description": "Parcels of digital land in virtual environments, which can be bought, sold, and built upon.",
+        "parent_key": "gamefi"
+    },
+    {
+        "key": "daos",
+        "display_name": "Decentralized Autonomous Organizations (DAOs)",
+        "description": "Blockchain-based entities where code replaces traditional management structures, and members make decisions collectively through votes.",
+        "parent_key": null
+    },
+    {
+        "key": "layer_two_solutions_and_scalability",
+        "display_name": "Layer Two Solutions and Scalability",
+        "description": "Technologies that enhance the scalability and efficiency of blockchains through secondary frameworks, reducing costs and increasing transaction speed.",
+        "parent_key": null
+    },
+    {
+        "key": "payment_and_state_channels",
+        "display_name": "Payment and State Channels",
+        "description": "Off-chain solutions for fast transactions by creating a direct line of payment between users without recording each on the main blockchain.",
+        "parent_key": "layer_two_solutions_and_scalability"
+    },
+    {
+        "key": "sidechains",
+        "display_name": "Sidechains",
+        "description": "Independent blockchains that run parallel to the main chain, improving scalability while maintaining connection with the primary blockchain.",
+        "parent_key": "layer_two_solutions_and_scalability"
+    },
+    {
+        "key": "rollups",
+        "display_name": "Rollups",
+        "description": "Layer 2 scaling solutions that aggregate multiple transactions into one, reducing load on the main chain.",
+        "parent_key": "layer_two_solutions_and_scalability"
+    },
+    {
+        "key": "optimistic_rollups",
+        "display_name": "Optimistic Rollups",
+        "description": "Assume transactions are valid and only check when a dispute is raised.",
+        "parent_key": "rollups"
+    },
+    {
+        "key": "zero_knowledge_rollups",
+        "display_name": "Zero-Knowledge Rollups (ZK-Rollups)",
+        "description": "Use cryptographic proofs to verify transaction validity, enhancing security and scalability.",
+        "parent_key": "rollups"
+    },
+    {
+        "key": "bridging_solutions",
+        "display_name": "Bridging Solutions",
+        "description": "Platforms providing interoperability solutions to connect different blockchain networks, enabling cross-chain transfers.",
+        "parent_key": "layer_two_solutions_and_scalability"
+    },
+    {
+        "key": "enterprise_and_government_applications",
+        "display_name": "Enterprise and Government Applications",
+        "description": "Blockchain applications tailored for enterprise and government use, focusing on regulatory compliance, operational efficiency, and security.",
+        "parent_key": null
+    },
+    {
+        "key": "digital_government_services",
+        "display_name": "Digital Government Services",
+        "description": "Governmental initiatives using blockchain to provide digital services, from identity verification to property registration.",
+        "parent_key": "enterprise_and_government_applications"
+    },
+    {
+        "key": "cbdcs",
+        "display_name": "Central Bank Digital Currencies (CBDCs)",
+        "description": "Government-issued digital currencies that function similarly to traditional fiat but operate on blockchain technology.",
+        "parent_key": "enterprise_and_government_applications"
+    },
+    {
+        "key": "law_enforcement_and_regulatory_agencies",
+        "display_name": "Law Enforcement and Regulatory Agencies",
+        "description": "Addresses or wallets certified to belong to law enforcement agencies, used in investigative or regulatory activities.",
+        "parent_key": "enterprise_and_government_applications"
+    },
+    {
+        "key": "privacy_and_anonymity_solutions",
+        "display_name": "Privacy and Anonymity Solutions",
+        "description": "Products or services that provide privacy solutions on the blockchain, enhancing anonymity and confidentiality in transactions.",
+        "parent_key": null
+    },
+    {
+        "key": "mixers",
+        "display_name": "Mixers",
+        "description": "Services used to obscure the origins of cryptocurrency transactions by mixing funds from various sources.",
+        "parent_key": "privacy_and_anonymity_solutions"
+    },
+    {
+        "key": "privacy_coins_and_protocols",
+        "display_name": "Privacy Coins and Protocols",
+        "description": "Cryptocurrencies and protocols designed to provide enhanced privacy features.",
+        "parent_key": "privacy_and_anonymity_solutions"
+    },
+    {
+        "key": "security_scams_and_malicious_activities",
+        "display_name": "Security, Scams, and Malicious Activities",
+        "description": "This category covers malicious activities, scams, security threats, and their corresponding countermeasures within the blockchain ecosystem.",
+        "parent_key": null
+    },
+    {
+        "key": "ponzi_and_pyramid_schemes",
+        "display_name": "Ponzi and Pyramid Schemes",
+        "description": "Investment scams promising high returns using funds from new investors to pay earlier investors.",
+        "parent_key": "security_scams_and_malicious_activities"
+    },
+    {
+        "key": "phishing_and_social_engineering_attacks",
+        "display_name": "Phishing and Social Engineering Attacks",
+        "description": "Deceptive tactics to obtain sensitive information from users.",
+        "parent_key": "security_scams_and_malicious_activities"
+    },
+    {
+        "key": "rug_pulls",
+        "display_name": "Rug Pulls",
+        "description": "Developers exit projects after securing investments, leaving investors with worthless assets.",
+        "parent_key": "security_scams_and_malicious_activities"
+    },
+    {
+        "key": "theft_and_hacking_incidents",
+        "display_name": "Theft and Hacking Incidents",
+        "description": "Addresses linked to theft or hacking incidents involving cryptocurrency.",
+        "parent_key": "security_scams_and_malicious_activities"
+    },
+    {
+        "key": "illicit_financing_and_terrorism",
+        "display_name": "Illicit Financing and Terrorism",
+        "description": "Addresses involved in financing illegal activities, including terrorism.",
+        "parent_key": "security_scams_and_malicious_activities"
+    },
+    {
+        "key": "money_laundering_activities",
+        "display_name": "Money Laundering Activities",
+        "description": "Addresses identified as being involved in money laundering.",
+        "parent_key": "security_scams_and_malicious_activities"
+    },
+    {
+        "key": "sanctioned_addresses",
+        "display_name": "Sanctioned Addresses",
+        "description": "Addresses sanctioned by government authorities.",
+        "parent_key": "security_scams_and_malicious_activities"
+    },
+    {
+        "key": "high_risk_and_others",
+        "display_name": "High-Risk and Others",
+        "description": "Addresses associated with suspicious activities not covered elsewhere.",
+        "parent_key": "security_scams_and_malicious_activities"
+    },
+    {
+        "key": "oracles",
+        "display_name": "Oracles",
+        "description": "Oracles act as bridges between blockchain smart contracts and external data sources.",
+        "parent_key": null
+    },
+    {
+        "key": "data_oracles",
+        "display_name": "Data Oracles",
+        "description": "Provide external data to smart contracts.",
+        "parent_key": "oracles"
+    },
+    {
+        "key": "computation_oracles",
+        "display_name": "Computation Oracles",
+        "description": "Perform off-chain computations for smart contracts.",
+        "parent_key": "oracles"
+    },
+    {
+        "key": "socialfi",
+        "display_name": "SocialFi",
+        "description": "Platforms that merge social networking with blockchain and decentralized finance (DeFi), enabling users to own, control, and monetize their social interactions, content, and data.",
+        "parent_key": null
+    },
+    {
+        "key": "decentralized_social_networks",
+        "display_name": "Decentralized Social Networks",
+        "description": "Social media platforms where users own their data and content, earning tokens for their engagement and contributions.",
+        "parent_key": "socialfi"
+    },
+    {
+        "key": "social_tokens_and_creator_economies",
+        "display_name": "Social Tokens and Creator Economies",
+        "description": "Tokens representing individuals, brands, or communities, allowing creators and influencers to monetize their work and foster community engagement.",
+        "parent_key": "socialfi"
+    }
+]
